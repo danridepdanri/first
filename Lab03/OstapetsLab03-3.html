@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lab03-3</title>
+    <style>
+
+        .container {
+            width: 75%;
+            margin: 0 auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+
+        }
+        td {
+            text-align: left;
+            border: 1px solid black;
+
+        }
+        .right-align {
+            text-align: right;
+        }
+        .left-align{
+            text-align:left;
+
+        }
+        .column-1{
+            width: 25%;
+        }
+        .column-2{
+
+            width: 75%;
+        }
+        .center-align{
+            text-align: center;
+        }
+        th {
+            border-top: 3px double black;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <table>
+        <tr>
+            <th colspan="2"  class="center-align" > Заголовок</th>
+        </tr>
+        <tr>
+            <td class=" column-1 left-align">Дані, вирівняні по<br>
+                лівому краю комірки</td>
+            <td class="column-2 right-align">Дані, вирівняні по правому краю комірки</td>
+        </tr>
+        <tr>
+            <td>25% ширини таблиці</td>
+            <td class="left-align">75% ширини таблиці</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
